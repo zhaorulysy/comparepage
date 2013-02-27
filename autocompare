@@ -153,9 +153,9 @@ foreach my $log (@logs)
 close(LOGS);
 #print $result_content."***\n";
 
-my $email_server = 'tus1opsmtapin01.ges.symantec.com';
-my $email_receivers = 'Jason_Zhao@symantec.com;Azure_Gao@symantec.com';
-my $email_sender = 'Jason_Zhao@symantec.com';
+my $email_server = '';
+my $email_receivers = '';
+my $email_sender = '';
 
 my $smtp = Net::SMTP->new($email_server);
 $smtp->mail($email_sender);
