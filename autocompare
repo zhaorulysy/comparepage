@@ -42,7 +42,7 @@ foreach $eachline (@contents_new) {
          
    next unless ($eachline =~ /<tr><td align="left">/);
 	 
-	 if($eachline =~ /html">(.*?)< 
+	 if($eachline =~ /html">(.*?)<  
 					 .*? ">\s?([0-9]+\.[0-9])<\/td> 
 					 .*? >\s?([0-9]+\.[0-9]|n\/a)+< 
 					 .*? >\s?([0-9]+\.[0-9]|n\/a)+<
